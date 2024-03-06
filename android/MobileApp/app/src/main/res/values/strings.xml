@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SensorMeshNetwork</string>
+
+    <!-- SensorSelectorActivity -->
+    <string name="progressDialogSensorSelector">
+        Check available sensors in database. Please wait …
+    </string>
+
+    <string name="noAvailableSensors">
+        No available sensors. Please contact with database administrator.
+    </string>
+
+
+    <!-- Graph DisplayActivity -->
+    <string name="timeFromMeasurements">From:</string>
+    <string name="timeToMeasurements">To:</string>
+    <string name="setTimeRange">SET</string>
+    <string name="loadData">LOAD DATA</string>
+
+    <string name="statisticAverage">Average:</string>
+    <string name="statisticDeviation">Standard deviation:</string>
+    <string name="statisticMin">Minimal value:</string>
+    <string name="statisticMax">Maximal value:</string>
+    <string name="statisticCountSample">Sample count:</string>
+
+    <string name="progressDialogGraphDisplay">
+        Load data from database. Please wait …
+    </string>
+
+    <!-- Chose date -->
+    <string name="dateSelectorFrom">Select from</string>
+    <string name="dateSelectorTo">Select to</string>
+    <string name="dateSelectorDefault">Select date</string>
+    <string name="dateSelectorSet">SET</string>
+
+
+</resources>

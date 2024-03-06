@@ -1,0 +1,12 @@
+[Unit]
+Description=RESTApi Service
+After=network-online.target
+[Service]
+Type=idle
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/ScriptsMeshNetwork/RESTApi.py
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target

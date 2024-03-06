@@ -1,0 +1,12 @@
+[Unit]
+Description=MQTTPythonLoger Service
+After=network-online.target
+[Service]
+Type=idle
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/ScriptsMeshNetwork/MQTTPythonLoger.py
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target
